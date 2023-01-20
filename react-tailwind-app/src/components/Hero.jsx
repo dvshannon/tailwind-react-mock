@@ -42,8 +42,7 @@ const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
       </div>
 
-      {/* still showing on large screens. could change to sm:invisible? */}
-      <div className={`sm:hidden flex-none ${styles.flexCenter}`}> 
+      <div className={`sm:invisible flex-none ${styles.flexCenter}`}> 
         <GetStarted />
       </div>
     </section>
