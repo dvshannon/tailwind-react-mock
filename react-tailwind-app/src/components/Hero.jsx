@@ -42,7 +42,7 @@ const Hero = () => {
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
       </div>
 
-      <div className={`sm:invisible flex-none ${styles.flexCenter}`}> 
+      <div className={`sm:invisible ${styles.flexCenter}`}> 
         <GetStarted />
       </div>
     </section>

@@ -42,4 +42,4 @@ const Business = () => (
     </section>
   )
 
-export default Business
+export default Business;
